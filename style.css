@@ -1,0 +1,49 @@
+body{
+    background-image: url(fundo.jpg);
+    background-size: 1280px;
+    background-size: 1024px;
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px whitesmoke;
+}
+
+h2{
+    text-align: center;
+    color: goldenrod;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 4px 2px whitesmoke;
+}
+
+div{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-color:goldenrod;
+    border-radius: 250px;
+    align-items: center;
+}
+
+input[type=text]{
+    margin-top: 75px;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type=password]{
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
