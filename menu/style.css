@@ -12,7 +12,7 @@ h1{
     text-shadow: 5px 5px whitesmoke;
 }
 
-h2{
+h3{
     text-align: center;
     color: goldenrod;
     font-size: 70px;
@@ -22,28 +22,23 @@ h2{
 
 div{
     text-align: center;
-    width: 250px;
-    height: 250px;
-    background-color:goldenrod;
-    border-radius: 250px;
-    align-items: center;
 }
 
-input[type=text]{
-    margin-top: 75px;
-    height: 25px;
-    width: 200px;
-    border-radius: 5px;
+input.livro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: goldenrod;
+
+    background-color: indianred;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
 }
 
-input[type=password]{
-    height: 25px;
-    width: 200px;
-    border-radius: 5px;
-}
-
-input[type=submit]{
-    height: 20px;
+input.usuario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    height: 40px;
     width: 100px;
     border-radius: 10px;
 }
